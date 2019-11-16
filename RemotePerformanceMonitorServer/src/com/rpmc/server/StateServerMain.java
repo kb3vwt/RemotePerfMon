@@ -8,7 +8,7 @@ public class StateServerMain {
         StateServer server = new StateServer();
 
         try {
-            server.start("224.0.0.2",7788,100);
+            server.start("224.0.0.2",7788,250);
         } catch (SocketException e) {
             e.printStackTrace();
         } catch (IOException e) {
