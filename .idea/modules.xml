@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/RemotePerformanceMonitorClient/RemotePerformanceMonitorClient.iml" filepath="$PROJECT_DIR$/RemotePerformanceMonitorClient/RemotePerformanceMonitorClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RemotePerformanceMonitorServer/RemotePerformanceMonitorServer.iml" filepath="$PROJECT_DIR$/RemotePerformanceMonitorServer/RemotePerformanceMonitorServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RemotePerformanceMonitorShared/RemotePerformanceMonitorShared.iml" filepath="$PROJECT_DIR$/RemotePerformanceMonitorShared/RemotePerformanceMonitorShared.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RemoteStats.iml" filepath="$PROJECT_DIR$/RemoteStats.iml" />
+    </modules>
+  </component>
+</project>

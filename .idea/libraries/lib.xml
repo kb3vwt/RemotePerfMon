@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/RemotePerformanceMonitorServer/lib/sigar.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RemotePerformanceMonitorServer/lib/gson-2.6.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <NATIVE>
+      <root url="file://$PROJECT_DIR$/RemotePerformanceMonitorServer/lib" />
+    </NATIVE>
+    <SOURCES />
+  </library>
+</component>
