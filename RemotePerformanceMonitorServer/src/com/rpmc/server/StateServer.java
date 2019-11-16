@@ -27,9 +27,9 @@ public class StateServer {
         getter = new StateGetter();
     }
 
-    public void start(String addr, int port, int delay) throws IOException {
+    public void start(String iface, String addr, int port, int delay) throws IOException {
         sock = new MulticastSocket(port);
-        sock.setInterface(InetAddress.getByName("192.168.1.3"));
+        sock.setInterface(InetAddress.getByName(iface));
         this.address = addr;
         this.port = port;
         this.delay = delay;

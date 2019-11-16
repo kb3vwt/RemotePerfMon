@@ -7,8 +7,13 @@ public class StateServerMain {
     public static void main(String[] argv) {
         StateServer server = new StateServer();
 
+        String iface = argv[0];
+        String group = argv[1];
+        int port = Integer.parseInt(argv[2]);
+        int rate = Integer.parseInt(argv[3]);
+
         try {
-            server.start("224.0.0.2",7788,250);
+            server.start(iface,group,port,rate);
         } catch (SocketException e) {
             e.printStackTrace();
         } catch (IOException e) {
